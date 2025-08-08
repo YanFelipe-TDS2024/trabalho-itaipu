@@ -15,6 +15,14 @@
     font-family: "Ubuntu", Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 1310px;
     height: 100%;
@@ -118,6 +126,7 @@
 }
 
     .noticias-competencias .titulo {
+        margin-top: 10px;
         color: #fff;
         font-size: 30px;
         margin-bottom: 10px;
@@ -245,13 +254,96 @@
         flex-wrap: wrap;
         background-color: white;
         width: 100%;
-        height: 700px;
+        height: 500px;
     }
 
         .oportunidades .titulo {
+            margin-top: 30px;
             color: #003c6a;
             font-size: 30px;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
+            margin-left:20px;
         }   
+
+        .oportunidades .container {
+            display: flex;
+            
+            
+        }
+
+            .oportunidade {
+                display: flex;
+                flex-direction: column;
+                background-color: #fab518;
+                width: 22%;
+                height: 355px;
+                border-radius: 25px;
+               
+            }
+
+                .oportunidade .container {
+                    display: flex;
+                    align-items: center;
+                }
+
+                    .oportunidade p {
+                        color: white;
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: bolder;
+                        padding-top: 10px;
+                    }
+
+                    .opcao-oportunidade {
+                        display: flex;
+                        
+                        margin-top:10px;
+                        background-color: white;
+                        width: 90%;
+                        height: 65px;
+                        border-radius: 35px;
+                        transition: all 0.3s ease;
+                    }
+
+                    .opcao-oportunidade:hover {
+                        scale: 1.05;
+                    }
+
+                        .opcao-oportunidade img {
+                            width: 65px;
+                        }
+
+                        .opcao-oportunidade p {
+                            color:#fab518;
+                            font-size: 20px;
+                        }
+
+    .rodape {
+        display: flex;
+        background-color: #00315e;
+        height: 430px;
+        
+    }
+
+        .rodape .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding:40px
+        }
+
+            .rodape .container .logo img {
+                width: 200px;
+            }
+
+            .rodape .container p {
+                color: white;
+                margin-top:15px;
+                font-size: 17px;
+            }
+
+            .rodape .container .direita {
+                text-align: right;
+            }
 
         
